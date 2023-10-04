@@ -139,6 +139,138 @@ build problem3.exe: C_EXECUTABLE_LINKER__problem3_Debug CMakeFiles/problem3.dir/
   TARGET_IMPLIB = libproblem3.dll.a
   TARGET_PDB = problem3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem4
+
+
+#############################################
+# Order-only phony target for problem4
+
+build cmake_object_order_depends_target_problem4: phony || CMakeFiles/problem4.dir
+
+build CMakeFiles/problem4.dir/Problem_4/problem4.c.obj: C_COMPILER__problem4_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 4/problem4.c || cmake_object_order_depends_target_problem4
+  DEP_FILE = CMakeFiles\problem4.dir\Problem_4\problem4.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem4.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem4.dir\Problem_4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem4
+
+
+#############################################
+# Link the executable problem4.exe
+
+build problem4.exe: C_EXECUTABLE_LINKER__problem4_Debug CMakeFiles/problem4.dir/Problem_4/problem4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem4.exe
+  TARGET_IMPLIB = libproblem4.dll.a
+  TARGET_PDB = problem4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem5
+
+
+#############################################
+# Order-only phony target for problem5
+
+build cmake_object_order_depends_target_problem5: phony || CMakeFiles/problem5.dir
+
+build CMakeFiles/problem5.dir/Problem_5/problem5.c.obj: C_COMPILER__problem5_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 5/problem5.c || cmake_object_order_depends_target_problem5
+  DEP_FILE = CMakeFiles\problem5.dir\Problem_5\problem5.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem5.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem5.dir\Problem_5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem5
+
+
+#############################################
+# Link the executable problem5.exe
+
+build problem5.exe: C_EXECUTABLE_LINKER__problem5_Debug CMakeFiles/problem5.dir/Problem_5/problem5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem5.exe
+  TARGET_IMPLIB = libproblem5.dll.a
+  TARGET_PDB = problem5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem6
+
+
+#############################################
+# Order-only phony target for problem6
+
+build cmake_object_order_depends_target_problem6: phony || CMakeFiles/problem6.dir
+
+build CMakeFiles/problem6.dir/Problem_6/problem6.c.obj: C_COMPILER__problem6_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 6/problem6.c || cmake_object_order_depends_target_problem6
+  DEP_FILE = CMakeFiles\problem6.dir\Problem_6\problem6.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem6.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem6.dir\Problem_6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem6
+
+
+#############################################
+# Link the executable problem6.exe
+
+build problem6.exe: C_EXECUTABLE_LINKER__problem6_Debug CMakeFiles/problem6.dir/Problem_6/problem6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem6.exe
+  TARGET_IMPLIB = libproblem6.dll.a
+  TARGET_PDB = problem6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem7
+
+
+#############################################
+# Order-only phony target for problem7
+
+build cmake_object_order_depends_target_problem7: phony || CMakeFiles/problem7.dir
+
+build CMakeFiles/problem7.dir/Problem_7/problem7.c.obj: C_COMPILER__problem7_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 7/problem7.c || cmake_object_order_depends_target_problem7
+  DEP_FILE = CMakeFiles\problem7.dir\Problem_7\problem7.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem7.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem7.dir\Problem_7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem7
+
+
+#############################################
+# Link the executable problem7.exe
+
+build problem7.exe: C_EXECUTABLE_LINKER__problem7_Debug CMakeFiles/problem7.dir/Problem_7/problem7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem7.exe
+  TARGET_IMPLIB = libproblem7.dll.a
+  TARGET_PDB = problem7.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +303,14 @@ build problem2: phony problem2.exe
 
 build problem3: phony problem3.exe
 
+build problem4: phony problem4.exe
+
+build problem5: phony problem5.exe
+
+build problem6: phony problem6.exe
+
+build problem7: phony problem7.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +319,7 @@ build problem3: phony problem3.exe
 #############################################
 # Folder: C:/Users/jolsz/uni/ProjectEuler/cmake-build-debug
 
-build all: phony problem1.exe problem2.exe problem3.exe
+build all: phony problem1.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe
 
 # =============================================================================
 # Built-in targets
