@@ -1,6 +1,6 @@
 # ninja log v5
 2	237	7181452833904829	ProjectEuler.exe	21c10a1c38876cbd
-5	387	7181493598864404	build.ninja	ba192ac3963fdc5
+5	387	7181517509972782	build.ninja	ba192ac3963fdc5
 8	280	7181464471563597	CMakeFiles/problem1.dir/Problem_2/problem2.c.obj	9ca1c1e4076ca794
 25	370	7181464472536237	CMakeFiles/problem1.dir/Problem_1/problem1.c.obj	470b837997bf32d3
 3	562	7181464689259356	problem1.exe	7517aec0025796d7

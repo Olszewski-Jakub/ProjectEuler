@@ -271,6 +271,105 @@ build problem7.exe: C_EXECUTABLE_LINKER__problem7_Debug CMakeFiles/problem7.dir/
   TARGET_IMPLIB = libproblem7.dll.a
   TARGET_PDB = problem7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem8
+
+
+#############################################
+# Order-only phony target for problem8
+
+build cmake_object_order_depends_target_problem8: phony || CMakeFiles/problem8.dir
+
+build CMakeFiles/problem8.dir/Problem_8/problem8.c.obj: C_COMPILER__problem8_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 8/problem8.c || cmake_object_order_depends_target_problem8
+  DEP_FILE = CMakeFiles\problem8.dir\Problem_8\problem8.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem8.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem8.dir\Problem_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem8
+
+
+#############################################
+# Link the executable problem8.exe
+
+build problem8.exe: C_EXECUTABLE_LINKER__problem8_Debug CMakeFiles/problem8.dir/Problem_8/problem8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem8.exe
+  TARGET_IMPLIB = libproblem8.dll.a
+  TARGET_PDB = problem8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem9
+
+
+#############################################
+# Order-only phony target for problem9
+
+build cmake_object_order_depends_target_problem9: phony || CMakeFiles/problem9.dir
+
+build CMakeFiles/problem9.dir/Problem_9/problem9.c.obj: C_COMPILER__problem9_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 9/problem9.c || cmake_object_order_depends_target_problem9
+  DEP_FILE = CMakeFiles\problem9.dir\Problem_9\problem9.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem9.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem9.dir\Problem_9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem9
+
+
+#############################################
+# Link the executable problem9.exe
+
+build problem9.exe: C_EXECUTABLE_LINKER__problem9_Debug CMakeFiles/problem9.dir/Problem_9/problem9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem9.exe
+  TARGET_IMPLIB = libproblem9.dll.a
+  TARGET_PDB = problem9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem10
+
+
+#############################################
+# Order-only phony target for problem10
+
+build cmake_object_order_depends_target_problem10: phony || CMakeFiles/problem10.dir
+
+build CMakeFiles/problem10.dir/Problem_10/problem10.c.obj: C_COMPILER__problem10_unscanned_Debug C$:/Users/jolsz/uni/ProjectEuler/Problem$ 10/problem10.c || cmake_object_order_depends_target_problem10
+  DEP_FILE = CMakeFiles\problem10.dir\Problem_10\problem10.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem10.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem10.dir\Problem_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem10
+
+
+#############################################
+# Link the executable problem10.exe
+
+build problem10.exe: C_EXECUTABLE_LINKER__problem10_Debug CMakeFiles/problem10.dir/Problem_10/problem10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem10.exe
+  TARGET_IMPLIB = libproblem10.dll.a
+  TARGET_PDB = problem10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -299,6 +398,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build problem1: phony problem1.exe
 
+build problem10: phony problem10.exe
+
 build problem2: phony problem2.exe
 
 build problem3: phony problem3.exe
@@ -311,6 +412,10 @@ build problem6: phony problem6.exe
 
 build problem7: phony problem7.exe
 
+build problem8: phony problem8.exe
+
+build problem9: phony problem9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +424,7 @@ build problem7: phony problem7.exe
 #############################################
 # Folder: C:/Users/jolsz/uni/ProjectEuler/cmake-build-debug
 
-build all: phony problem1.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe
+build all: phony problem1.exe problem2.exe problem3.exe problem4.exe problem5.exe problem6.exe problem7.exe problem8.exe problem9.exe problem10.exe
 
 # =============================================================================
 # Built-in targets

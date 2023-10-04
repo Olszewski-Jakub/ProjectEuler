@@ -1,4 +1,5 @@
 C:\Users\jolsz\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/jolsz/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\jolsz\uni\ProjectEuler -B C:\Users\jolsz\uni\ProjectEuler\cmake-build-debug
--- Configuring done (0.2s)
--- Generating done (0.1s)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
 -- Build files have been written to: C:/Users/jolsz/uni/ProjectEuler/cmake-build-debug
+CMake File API: C:\Users\jolsz\uni\ProjectEuler\cmake-build-debug: failed to load from 'C:\Users\jolsz\uni\ProjectEuler\cmake-build-debug\.cmake\api\v1\reply\target-problem4-Debug-a1784c550ea6cff31f18.json'
